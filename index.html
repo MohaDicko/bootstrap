@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORGO VOYAGE </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Barre de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">DK-VOYAGE </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Circuits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Héros -->
+  <section class="hero-section" style="background-image: url('destination.jpg');">
+    <div class="container text-center">
+      <h1 class="display-4">Découvrez votre prochaine aventure</h1>
+      <p class="lead">Explorez des destinations exotiques à travers le monde</p>
+      <a href="#" class="btn btn-primary btn-lg">Découvrir</a>
+    </div>
+  </section>
+
+  <!-- Rubrique Destinations -->
+  <section class="destinations-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Marrakech jamma elfna.jpg" class="card-img-top" alt="Destination 1">
+            <div class="card-body">
+              <h5 class="card-title">Destination 1</h5>
+              <p class="card-text">Place jamma elfna.</p>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Mosqué Hassane II.jpg" class="card-img-top" alt="Destination 1">
+            <div class="card-body">
+              <h5 class="card-title">Destination 2 </h5>
+              <p class="card-text">Mosqué Hassane II de Casablanca.</p>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Agadir.jpg" class="card-img-top" alt="Destination 1">
+            <div class="card-body">
+              <h5 class="card-title">Destination 3</h5>
+              <p class="card-text">Agadir.</p>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <!-- Ajoutez d'autres destinations similaires -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Visites -->
+  <section class="visites-section">
+    <div class="container">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Titre visite 1
+            </button>
+            
+          </h2>
+          
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Description visite 1. <a href="#">Afficher les détails</a>.
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- Ajoutez d'autres visites similaires -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulaire de contact -->
+  <section class="contact-section">
+    <div class="container">
+      <h2 class="text-center">Contactez-nous</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="name" placeholder="Votre nom">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Votre email">
+        </div>
+        <div class="mb-3">
+          <label for="destination" class="form-label">Destination</label>
+          <select class="form-select" id="destination">
+            <option selected>Choisissez une destination</option>
+            <option value="destination1">Destination 1</option>
+            <!-- Ajoutez d'autres destinations -->
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bas de page -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <p>&copy; 2024 DK-VOYAGE. Tous droits réservés.</p>
+          <!-- Ajoutez des icônes de réseaux sociaux -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
